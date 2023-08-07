@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  margin: 0;
+  height: 100vh;
+}
+
+.container {
+  height: 100%;
+}
+
+.container.left {
+  flex: 0.35;
+  background: url('./images/background-splash.jpg');
+  background-size: cover;
+}
+
+.container.right {
+  flex: 0.65;
+}
