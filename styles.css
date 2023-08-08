@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 body {
   display: flex;
@@ -32,15 +33,27 @@ body {
   font-size: 3rem;
 }
 
+.slight-bold {
+  white-space: break-spaces;
+  font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: #2E3745;
+}
+
 .container.right {
   flex: 0.65;
   display: flex;
-  align-items: center;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #F9FAFB;
 }
 
-.container.right p {
-  white-space: break-spaces;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 500;
-  font-size: larger;
+.container.right .input-section {
+  background-color: #FFFFFF;
+  height: 16rem;
+  width: 100%;
+  box-shadow: 0px 5px 13px 0px rgba(0,0,0,0.1);
+  padding: 1.2rem 2.5rem;
 }
