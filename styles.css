@@ -34,4 +34,13 @@ body {
 
 .container.right {
   flex: 0.65;
+  display: flex;
+  align-items: center;
+}
+
+.container.right p {
+  white-space: break-spaces;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: larger;
 }
