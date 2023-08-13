@@ -67,7 +67,7 @@ body {
 }
 
 .input-field {
-  max-width: 16rem;
+  max-width: 20rem;
 }
 
 .input-field label {
@@ -75,7 +75,7 @@ body {
   font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 500;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 12.5px;
   color: #404953;
 }
 
@@ -85,4 +85,28 @@ body {
   border-radius: 3px;
   padding: 4px;
   padding-left: 8px;
+}
+
+input[type="submit"] {
+  border: 0;
+  background-color: #596D48;
+  color: white;
+  margin: 2rem 2.5rem;
+  width: 13rem;
+  height: 2.8rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 5px 13px 0px rgba(0,0,0,0.2);
+}
+
+.login-text {
+  margin: 0 2.5rem;
+  font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #2E3745;
+}
+
+.login-text a {
+  color: #596D48;
+  text-decoration: none;
 }
